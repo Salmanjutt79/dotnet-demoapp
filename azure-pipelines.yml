@@ -12,7 +12,7 @@ steps:
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
-    version: '6.x' # Use the appropriate version of the .NET SDK
+    version: '8.x' # Use the appropriate version of the .NET SDK
 
 - task: DotNetCoreCLI@2
   displayName: 'Restore'
